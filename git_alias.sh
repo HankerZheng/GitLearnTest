@@ -8,3 +8,9 @@ git config --global alias.unsgate 'reset HEAD --'
 ## usage: git last
 ## result: show the last commit to the repository
 git config --global alias.last 'log -1 HEAD'
+
+## graph alias
+## usage: git graph
+## result: show all the branch log history
+git config --global alias.graph 'log --oneline --decorate --graph --all'
+
